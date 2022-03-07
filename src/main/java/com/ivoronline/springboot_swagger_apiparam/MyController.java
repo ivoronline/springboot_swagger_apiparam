@@ -1,6 +1,5 @@
 package com.ivoronline.springboot_swagger_apiparam;
 
-import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,6 +13,7 @@ public class MyController {
   //=========================================================================
   // HELLO
   //=========================================================================
+  // http://localhost:8080/Hello?name=John
   @GetMapping("Hello")
     String hello(
       @ApiParam(
