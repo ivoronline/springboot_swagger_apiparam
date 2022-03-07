@@ -1,4 +1,4 @@
-package com.ivoronline.springboot_swagger_apiparam;
+package com.ivoronline.springboot_swagger_apiparam.controllers;
 
 import io.swagger.annotations.ApiParam;
 import org.springframework.web.bind.annotation.GetMapping;
